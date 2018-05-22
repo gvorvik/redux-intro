@@ -1,0 +1,13 @@
+Redux solves the problem of having to pass informataion across components by writing props in each component
+
+Redux creates a store for the information to live in
+ - dispatch an action to access the necessary information
+ - Create one store for each application for ease
+
+A reducer is a function that runs whenever it is dispatched
+
+The provider wraps the entire application and allows for the app to communicate to the redux store
+
+CombineReducers takes all reducers and mashes them into one, which will then go into the store
+
+If we are getting information from the redux store we must mapReduxStateToProps
